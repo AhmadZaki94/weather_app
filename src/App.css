@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.LowerGraph1{
+  /* border:1px solid navy; */
+  height:19%;
+  }
+  .graph{
+    height:100%;
+    /* border:1px solid green; */
+    width: 90%;
+    margin:auto;
+  }
+
+  .days {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    margin: 10px auto;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.day {
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.day img {
+    width: 40px;
+}
